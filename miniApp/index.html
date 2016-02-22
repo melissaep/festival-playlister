@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lil Thang</title>
+</head>
+<body>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script>
+
+	var echoNest = [];
+	var artistsPlusID = {};
+	var echoNestKey = 'SO5PRLOHX9IBY34FA';
+	var echoNestURL = 'http://developer.echonest.com/api/v4/artist/search?';
+
+	artists = [
+	"the+national", 
+	"robyn", 
+	"july+talk", 
+	"santigold", 
+	"of+montreal", 
+	"diiv", 
+	"charles+bradley", 
+	"jazz+cartier", 
+	"boy+bear", 
+	"bully", 
+	"holy+fuck", 
+	"plants+animals", 
+	"basia+bulat"
+	]
+
+	artists2 = [
+	"dear+rouge", 
+	"ra+ra+riot", 
+	"jason+collett", 
+	"tei+shi", 
+	"eliot+sumner",
+	"meg+mac", 
+	"lennon+maisy", 
+	"brave+shores", 
+	"tor+miller", 
+	"kalle+mattson", 
+	"charlotte+day+wilson", 
+	"most+people"]
+
+
+	echoNest.getArtistId = function(artistName){
+			return $.ajax({
+				url: echoNestURL,
+				method: 'GET',
+				dataType: 'json',
+				data: {
+					api_key: echoNestKey,
+					name: artistName,
+					format: 'json',
+				},
+			});
+		};
+
+	var apiData = [];
+	var artistData = [];
+	var firstArtistData = [];
+
+	echoNest.init = function(arrayName){
+		for (i = 0; i < artists.length; i = i + 1) {
+			apiData.push(echoNest.getArtistId(arrayName[i]));
+		};
+		console.log(apiData);
+
+			// Filter down API data to information needed (songs)
+		$.when.apply(null, apiData).then(function() {
+			artistData = Array.prototype.slice.apply(arguments);
+			console.log(artistData);
+			artistData = artistData.map(function(value){
+				return value[0].response.artists;
+			});
+			console.log(artistData);
+			firstArtistData = artistData.map(function(value){
+				return value[0];
+			});
+			console.log(firstArtistData);
+			echoNest.postArtistInfo(firstArtistData);
+		});
+
+
+	};
+
+	echoNest.postArtistInfo = function(data){
+			// console.log(data);
+			$.each(data, function(){
+				console.log(this);
+				var artistName = this.name;
+				$('body').append('<p>Artist Name: ' + artistName + '</p>');
+				var artistID = this.id;
+				$('body').append('<p>Artist ID: ' + artistID + '</p>');
+			});
+
+		};
+
+</script>
+</body>
+</html>

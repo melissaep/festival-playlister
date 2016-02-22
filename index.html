@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Festival Playlist Maker</title>
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<header id="home">
+		<div class="wrapper">
+			<h1>The<span>festival</span>playlist maker</h1>
+			<a class="start smoothScroll" href="#festival"><i class="icon ion-play"></i></a>
+		</div>
+	</header>
+
+	<section id="festival" class="festival">
+		<div class="wrapper">
+			<div class="inner-wrapper">
+				<p class="topLine">I'm going to</p>
+				<div class="dropdown">
+					<select id="mySelect" class="festivalName">
+						<option value="" disabled selected></option>
+						<option value="wayhome16">Wayhome</option>
+						<option value="fieldtrip16">Field Trip</option>
+						<option value="osheaga16" disabled>Osheaga</option>
+				</select>
+				</div>
+			</div>
+			<p class="nextline">and I need a playlist to get me stoked.</p>
+		</div>
+	</section>
+
+	<section id="artists" class="artists hidden">
+		<div class="wrapper">
+			<h2 class="festival"></h2>
+			<div class="artistList">
+				<p class="instructions">Choose up to 20 artists</p>
+				<ul>
+					
+				</ul>
+			</div>
+			<div class="numberOfSongs">
+				<p class="intructions">Choose the number of songs for each artist</p>
+				<ul>
+					<li>
+						<input type="radio" name="numberSongs" value="1" id="1song">
+						<label for="1song">1</label>
+					</li>
+					<li>
+						<input type="radio" name="numberSongs" value="2" id="2song">
+						<label for="2song">2</label>
+					</li>
+					<li>
+						<input type="radio" name="numberSongs" value="3" id="3song" checked>
+						<label for="3song">3</label>
+					</li>
+					<li>
+						<input type="radio" name="numberSongs" value="4" id="4song">
+						<label for="4song">4</label>
+					</li>
+					<li>
+						<input type="radio" name="numberSongs" value="5" id="5song">
+						<label for="5song">5</label>
+					</li>
+					<li>
+						<input type="radio" name="numberSongs" value="6" id="6song">
+						<label for="6song">6</label>
+					</li>
+					<li>
+						<input type="radio" name="numberSongs" value="7" id="7song">
+						<label for="7song">7</label>
+					</li>
+					<li>
+						<input type="radio" name="numberSongs" value="8" id="8song">
+						<label for="8song">8</label>
+					</li>
+					<li>
+						<input type="radio" name="numberSongs" value="9" id="9song">
+						<label for="9song">9</label>
+					</li>
+					<li>
+						<input type="radio" name="numberSongs" value="10" id="10song">
+						<label for="10song">10</label>
+					</li>
+				</ul>
+			</div>
+			<a class="getPlaylist smoothScroll" href="#results">Make me a Playlist!</a>
+		</div>
+	</section>
+	
+	<section id="results" class="results hidden">
+		<div class="wrapper">
+			<h2>Your <span class="festival"></span> Playlist!</h2>
+			<div class="inner-wrapper">
+				<div class="playlist">
+					<table>
+					  <tr>
+					    <th>#</th>
+					    <th>Song</th>
+					    <th>Artist</th>
+					  </tr>
+					</table>
+				</div>
+				<div class="spotify">
+					<iframe src="" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+					<h2>HINT</h2>
+					<p>Press the play button to open in the Spotify web app! From there you can copy this playlist and save it for later!</p>
+				</div>
+			</div>
+			<a href="#home" class="startOver">Again, Again!</a>
+		</div>
+	</section>
+
+	<footer id="footer" class="hidden">
+	<div class="wrapper">
+			<p>&copy; 2016 Designed and Developed by <a href="http://melissaperry.io" target="_blank">Melissa Perry</a></p>
+			<p>Powered by <a href="http://the.echonest.com" target="_blank">EchoNest</a> and <a href="http://spotify.com" target="_blank">Spotify</a></p>
+	</div>
+	</footer>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+	<script src="javascript/jquery.heapbox-0.9.4.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="javascript/smoothscroll.js"></script>
+	<script src="javascript/smoothscroll2.js"></script>
+	<script src="javascript/script.js"></script>
+</body>
+</html>
