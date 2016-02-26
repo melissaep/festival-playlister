@@ -172,18 +172,20 @@ section.artists {
 				justify-content: center;
 				align-items: stretch;
 				li {
-					padding: 10px 0;
+					padding: 15px 0;
 					margin: 5px;
 					text-align: center;
+					background: rgba(255,255,255,0.3);
+					transition: background 0.5s ease;
 					label {
-						background: rgba(255,255,255,0.3);
-						padding: 10px;
-						transition: background 0.5s ease;
+						// transition: background 0.5s ease;
+						// background: rgba(255,255,255,0.3);
+						padding: 15px;
 					}
-					label:hover,
-					label:focus {
-						background: rgba(255,255,255,0.8);
-					}
+					// label:hover,
+					// label:focus {
+					// 	background: rgba(255,255,255,0.8);
+					// }
 
 					input[type=checkbox],
 					input[type=radio] {
@@ -191,8 +193,14 @@ section.artists {
 					}
 					input:checked + label {
 						font-weight: 700;
-						background: cyan;
+						// background: cyan;
 					}
+				}
+				li.hover {
+					background: rgba(255,255,255,0.8);
+				}
+				li.select {
+					background: cyan;
 				}
 			}
 		}
@@ -439,5 +447,21 @@ footer {
 			}
 		}
 	}
-
+	section.artists {
+		.wrapper {
+			.artistList,
+			.numberOfSongs {
+				ul {
+					li {
+						width: 100%;
+						padding: 0;
+						label {
+							width: 100%;
+							display: inline-block;
+						}
+					}
+				}
+			}
+		}
+	}
 }

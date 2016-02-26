@@ -299,9 +299,9 @@ artistName: "Robert Delong",
 artistID: "ARSHWLT12AA0D91E33"
 }
 
-var colemanHall = {
-artistString: "colemanHall",
-artistName: "Coleman Hell",
+var colemenHell = {
+artistString: "colemen Hell",
+artistName: "Colemen Hell",
 artistID: "AROUAKH1373E16F669"
 }
 
@@ -592,6 +592,451 @@ artistName: "Most People",
 artistID: "AROVFYE143891C8F3C"
 }
 
+
+var redHotChiliPeppers = {
+artistName: "red hot chili peppers",
+artistString: "redHotChiliPeppers",
+artistID: "ARE8GLF1187FB52532"
+}
+
+var lanaDelRey = {
+artistName: "lana del rey",
+artistString: "lanaDelRey",
+artistID: "ARICLSK131AAE25F5E"
+}
+
+var radiohead = {
+artistName: "radiohead",
+artistString: "radiohead",
+artistID: "ARH6W4X1187B99274F"
+}
+
+var disclosure = {
+artistName: "disclosure",
+artistString: "disclosure",
+artistID: "ARPCATO12B3B3540E2"
+}
+
+var theLumineers = {
+artistName: "the lumineers",
+artistString: "theLumineers",
+artistID: "ARDWDTB12CAE3A9816"
+}
+
+var grimes = {
+artistName: "grimes",
+artistString: "grimes",
+artistID: "ARJUURB12AF7D91356"
+}
+
+var flume = {
+artistName: "flume",
+artistString: "flume",
+artistID: "ARRRSNG1242077E912"
+}
+
+var bastille = {
+artistName: "bastille",
+artistString: "bastille",
+artistID: "ARZT6MQ1187FB56487"
+}
+
+var passenger = {
+artistName: "passenger",
+artistString: "passenger",
+artistID: "ARMTZR11187B9AD0C2"
+}
+
+var walktheMoon = {
+artistName: "walk the moon",
+artistString: "walktheMoon",
+artistID: "ARAZEGJ11E905798ED"
+}
+
+var leonBridges = {
+artistName: "leon bridges",
+artistString: "leonBridges",
+artistID: "ARXQDEU14B13A73839"
+}
+
+var blocParty = {
+artistName: "bloc party",
+artistString: "blocParty",
+artistID: "ARI7DOB1187FB37AA4"
+}
+
+var paulKalkbrenner = {
+artistName: "paul kalkbrenner",
+artistString: "paulKalkbrenner",
+artistID: "ARH33CP1187FB3836B"
+}
+
+var macMiller = {
+artistName: "mac miller",
+artistString: "macMiller",
+artistID: "ARSKHHY1269FB3830E"
+}
+
+var cypressHill = {
+artistName: "cypress hill",
+artistString: "cypressHill",
+artistID: "ARMD3XX1187B9ACF84"
+}
+
+var silversunPickups = {
+artistName: "silversun pickups",
+artistString: "silversunPickups",
+artistID: "ARI276C1187FB39DA4"
+}
+
+var theCatEmpire = {
+artistName: "the cat empire",
+artistString: "theCatEmpire",
+artistID: "ARQNLH31187B9ADC1D"
+}
+
+var kaytranada = {
+artistName: "kaytranada",
+artistString: "kaytranada",
+artistID: "ARJBOIF13D19662E96"
+}
+
+var toddTerjeTheOlsens = {
+artistName: "todd terje & the olsens",
+artistString: "toddTerjeTheOlsens",
+artistID: "AR0U6711187FB3FFB1"
+}
+
+var daughter = {
+artistName: "daughter",
+artistString: "daughter",
+artistID: "ARFDJ251187B9B132B"
+}
+
+var theBarrBrothers = {
+artistName: "the barr brothers",
+artistString: "theBarrBrothers",
+artistID: "ARKVJZJ12ACA291292"
+}
+
+var logic = {
+artistName: "logic",
+artistString: "logic",
+artistID: "ARDFUFY1187B98B206"
+}
+
+var boysNoize = {
+artistName: "boys noize",
+artistString: "boysNoize",
+artistID: "ARVXFBU1187B989D86"
+}
+
+var elleKing = {
+artistName: "elle king",
+artistString: "elleKing",
+artistID: "ARPNRSK13687E71F38"
+}
+
+var yearsYears = {
+artistName: "years & years",
+artistString: "yearsYears",
+artistID: "ARPDYVR13A6C15570C"
+}
+
+var gramatik = {
+artistName: "gramatik",
+artistString: "gramatik",
+artistID: "ARNAPXQ123E29C1CAD"
+}
+
+var julyTalk = {
+artistName: "july talk",
+artistString: "julyTalk",
+artistID: "ARHENFK13BDAE330D8"
+}
+
+var jazzCartier = {
+artistName: "jazz cartier",
+artistString: "jazzCartier",
+artistID: "ARYXRUY12FE0878447"
+}
+
+var stLucia = {
+artistName: "st. lucia",
+artistString: "stLucia",
+artistID: "AREOMKJ12AF7D97C5D"
+}
+
+var dragonette = {
+artistName: "dragonette",
+artistString: "dragonette",
+artistID: "AR7WSXC1187FB37A2E"
+}
+
+var lapsley = {
+artistName: "lapsley",
+artistString: "lapsley",
+artistID: "AREGBNQ12D5CD7B626"
+}
+
+var melanieMartinez = {
+artistName: "melanie martinez",
+artistString: "melanieMartinez",
+artistID: "ARDCQBY13C49821879"
+}
+
+var skepta = {
+artistName: "skepta",
+artistString: "skepta",
+artistID: "ARJH9IA1187B9B4235"
+}
+
+var postMalone = {
+artistName: "post malone",
+artistString: "postMalone",
+artistID: "ARPZUBO14B60AC689F"
+}
+
+var thePaperKites = {
+artistName: "the paper kites",
+artistString: "thePaperKites",
+artistID: "ARSHLCF13D5B2E1D0A"
+}
+
+var evianChrist = {
+artistName: "evian christ",
+artistString: "evianChrist",
+artistID: "ARZVZPT13B48012AC4"
+}
+
+var lane8 = {
+artistName: "lane 8",
+artistString: "lane8",
+artistID: "ARBLARP13FA2347608"
+}
+
+var theStrumbellas = {
+artistName: "the strumbellas",
+artistString: "theStrumbellas",
+artistID: "ARXFQIG13544FB4EFB"
+}
+
+var theUnderachievers = {
+artistName: "the underachievers",
+artistString: "theUnderachievers",
+artistID: "ARH4PFA1187FB3F682"
+}
+
+var frightenedRabbit = {
+artistName: "frightened rabbit",
+artistString: "frightenedRabbit",
+artistID: "AR9W55Y1187FB4AA37"
+}
+
+var snakehips = {
+artistName: "snakehips",
+artistString: "snakehips",
+artistID: "AR6BZCE1187FB3618F"
+}
+
+var jackGarratt = {
+artistName: "jack garratt",
+artistString: "jackGarratt",
+artistID: "ARJVDAK146F77EA6EE"
+}
+
+var muraMasa = {
+artistName: "mura masa",
+artistString: "muraMasa",
+artistID: "ARY79AC1187FB4181E"
+}
+
+var goldlink = {
+artistName: "goldlink",
+artistString: "goldlink",
+artistID: "ARDEQQQ146CBF5ECFC"
+}
+
+var borisBrejcha = {
+artistName: "boris brejcha",
+artistString: "borisBrejcha",
+artistID: "ARSEBR71187FB523D6"
+}
+
+var frances = {
+artistName: "frances",
+artistString: "frances",
+artistID: "ARQIXOG11F4C843E75"
+}
+
+var rufusDuSol = {
+artistName: "rufus du sol",
+artistString: "rufusDuSol",
+artistID: "ARPVYGQ143CB2DFA23"
+}
+
+var fakear = {
+artistName: "fakear",
+artistString: "fakear",
+artistID: "ARHHRTP13F0DEE3B47"
+}
+
+var misterwives = {
+artistName: "misterwives",
+artistString: "misterwives",
+artistID: "ARDHBAZ1412A317967"
+}
+
+var theStruts = {
+artistName: "the struts",
+artistString: "theStruts",
+artistID: "ARMYVEV1187B9B6A24"
+}
+
+var classixx = {
+artistName: "classixx",
+artistString: "classixx",
+artistID: "ARDFBAM11EBCD78E43"
+}
+
+var sonreal = {
+artistName: "sonreal",
+artistString: "sonreal",
+artistID: "ARICKSD12CAE3AA26E"
+}
+
+var theWombats = {
+artistName: "the wombats",
+artistString: "theWombats",
+artistID: "ARFAJNM14B13A9DF06"
+}
+
+var hiatusKaiyote = {
+artistName: "hiatus kaiyote",
+artistString: "hiatusKaiyote",
+artistID: "ARJSYEA13B0169D271"
+}
+
+var jeremyLoops = {
+artistName: "jeremy loops",
+artistString: "jeremyLoops",
+artistID: "ARPRIYJ13CA7DCCB71"
+}
+
+var hiLo = {
+artistName: "hi lo",
+artistString: "hiLo",
+artistID: "ARSLAU81187FB440AC"
+}
+
+var charlotteCardin = {
+artistName: "charlotte cardin",
+artistString: "charlotteCardin",
+artistID: "ARSGZFQ1492F101F32"
+}
+
+var littleSimz = {
+artistName: "little simz",
+artistString: "littleSimz",
+artistID: "ARPHXLG13DEB14A888"
+}
+
+var synapson = {
+artistName: "synapson",
+artistString: "synapson",
+artistID: "ARSLMZP12FE0874F36"
+}
+
+var nothingButThieves = {
+artistName: "nothing but thieves",
+artistString: "nothingButThieves",
+artistID: "ARBGYGS1377A5F0597"
+}
+
+var theRange = {
+artistName: "the range",
+artistString: "theRange",
+artistID: "AR2221M1187B9AAB25"
+}
+
+var cloves = {
+artistName: "cloves",
+artistString: "cloves",
+artistID: "ARMNOYV11EB9C81A50"
+}
+
+var nightRiots = {
+artistName: "night riots",
+artistString: "nightRiots",
+artistID: "ARGWSHW13CDB825DF1"
+}
+
+var jahkoy = {
+artistName: "jahkoy",
+artistString: "jahkoy",
+artistID: "ARDDDLN146B59EB868"
+}
+
+var foyVance = {
+artistName: "foy vance",
+artistString: "foyVance",
+artistID: "ARZV4CE1187FB3FFDC"
+}
+
+var leMatos = {
+artistName: "le matos",
+artistString: "leMatos",
+artistID: "ARQDVVG1269FB377FE"
+}
+
+var haelos = {
+artistName: "haelos",
+artistString: "haelos",
+artistID: "ARLNHID14C05B3394C"
+}
+
+var feder = {
+artistName: "feder",
+artistString: "feder",
+artistID: "ARBUOJU13361805FF0"
+}
+
+var alexG = {
+artistName: "alex g",
+artistString: "alexG",
+artistID: "ARSWEWS125FEF319B3"
+}
+
+var caveboy = {
+artistName: "caveboy",
+artistString: "caveboy",
+artistID: "ARQSZUJ14CF19B6356"
+}
+
+var elephantStone = {
+artistName: "elephant stone",
+artistString: "elephantStone",
+artistID: "ARPUVBT11E905795A1"
+}
+
+var haute = {
+artistName: "haute",
+artistString: "haute",
+artistID: "ARCUIIG1476D02BA78"
+}
+
+var israelNash = {
+artistName: "israel nash",
+artistString: "israelNash",
+artistID: "ARIFZDB1447A74BA8F"
+}
+
+var noe = {
+artistName: "noe",
+artistString: "noe",
+artistID: "ARWTSFH12406A89ACE"
+}
+
 // **************************
 // Music Festival Variables
 // **************************
@@ -651,7 +1096,7 @@ var wayhome16 = {
 		lindseyStirling,
 		ohWonder,
 		robertDelong,
-		colemanHall,
+		colemenHell,
 		whiteDenim,
 		shad,
 		fidlar,
@@ -712,6 +1157,111 @@ var fieldtrip16 = {
 	]
 }
 
+var osheaga16 = {
+	name: 'Osheaga',
+	year: '2016',
+	location: 'Montreal, QC',
+	country: 'Canada',
+	artists: [
+		redHotChiliPeppers,
+		lanaDelRey,
+		radiohead,
+		disclosure,
+		theLumineers,
+		m83,
+		grimes,
+		flume,
+		beirut,
+		bastille,
+		passenger,
+		walktheMoon,
+		leonBridges,
+		lastShadowPuppets,
+		blocParty,
+		paulKalkbrenner,
+		macMiller,
+		theArcs,
+		cypressHill,
+		silversunPickups,
+		foals,
+		kurtVile,
+		wolfParade,
+		theCatEmpire,
+		nathanielRateliff,
+		kaytranada,
+		toddTerjeTheOlsens,
+		daughter,
+		theBarrBrothers,
+		logic,
+		boysNoize,
+		elleKing,
+		yearsYears,
+		gramatik,
+		toryLanez,
+		julyTalk,
+		jazzCartier,
+		stLucia,
+		ohWonder,
+		vinceStaples,
+		mo,
+		dragonette,
+		lapsley,
+		melanieMartinez,
+		skepta,
+		postMalone,
+		keysNkrates,
+		thePaperKites,
+		evianChrist,
+		lane8,
+		theStrumbellas,
+		theUnderachievers,
+		frightenedRabbit,
+		snakehips,
+		jackGarratt,
+		muraMasa,
+		goldlink,
+		borisBrejcha,
+		borns,
+		frances,
+		rufusDuSol,
+		fakear,
+		colemenHell,
+		lucius,
+		misterwives,
+		theStruts,
+		whiteLung,
+		classixx,
+		sonreal,
+		theWombats,
+		hiatusKaiyote,
+		jeremyLoops,
+		hiLo,
+		marianHill,
+		charlotteCardin,
+		littleSimz,
+		banners,
+		synapson,
+		nothingButThieves,
+		theRange,
+		cloves,
+		nightRiots,
+		dillyDally,
+		tennyson,
+		jahkoy,
+		foyVance,
+		leMatos,
+		haelos,
+		feder,
+		alexG,
+		caveboy,
+		elephantStone,
+		haute,
+		israelNash,
+		noe
+	]
+}
+
+
 
 // **************************
 // Functions for User Selection
@@ -744,11 +1294,30 @@ echoNest.populateArtists = function(festivalChoice){
 		$('div.artistList ul').append('<li>' + checkbox + label + '</li>');
 	});
 
+	$('label').hover(
+	  function() {
+	    $(this).parent().addClass('hover');
+	  }, function() {
+	    $(this).parent().removeClass('hover');
+	  }
+	);
+
 	$('input[type=checkbox]').on('click', function (e) {
 	    if ($('input[type=checkbox]:checked').length > 20) {
 	        $(this).prop('checked', false);
+	    } else {
+	    	$(this).parent().toggleClass('select');
 	    }
 	});
+
+	$('input').click(function () {
+	    $('input:not(:checked)').parent().removeClass("select");
+	    $('input:checked').parent().addClass("select");
+	});    
+
+	// if ($('input[type=radio]').is(:checked)) {
+
+	// };
 
 	$('a.getPlaylist').on('click', function(){
 		$('#results').removeClass('hidden');
@@ -789,7 +1358,7 @@ var songData = [];
 echoNest.getAllSongs = function(artistArray){
 	// Push all API data into one array
 	var apiData = [];
-	for (i = 0; i < artistArray.length; i = i + 1) {
+	for (i = 0; i < artistArray.length; i += 1) {
 		apiData.push(echoNest.getArtistSongs(artistArray[i], numSongs));
 	};
 	// console.log(apiData);

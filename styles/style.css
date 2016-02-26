@@ -510,23 +510,16 @@ section.artists .wrapper .numberOfSongs ul {
 
 section.artists .wrapper .artistList ul li,
 section.artists .wrapper .numberOfSongs ul li {
-  padding: 10px 0;
+  padding: 15px 0;
   margin: 5px;
   text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  transition: background 0.5s ease;
 }
 
 section.artists .wrapper .artistList ul li label,
 section.artists .wrapper .numberOfSongs ul li label {
-  background: rgba(255, 255, 255, 0.3);
-  padding: 10px;
-  transition: background 0.5s ease;
-}
-
-section.artists .wrapper .artistList ul li label:hover,
-section.artists .wrapper .artistList ul li label:focus,
-section.artists .wrapper .numberOfSongs ul li label:hover,
-section.artists .wrapper .numberOfSongs ul li label:focus {
-  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
 }
 
 section.artists .wrapper .artistList ul li input[type=checkbox],
@@ -539,6 +532,15 @@ section.artists .wrapper .numberOfSongs ul li input[type=radio] {
 section.artists .wrapper .artistList ul li input:checked + label,
 section.artists .wrapper .numberOfSongs ul li input:checked + label {
   font-weight: 700;
+}
+
+section.artists .wrapper .artistList ul li.hover,
+section.artists .wrapper .numberOfSongs ul li.hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+section.artists .wrapper .artistList ul li.select,
+section.artists .wrapper .numberOfSongs ul li.select {
   background: cyan;
 }
 
@@ -818,5 +820,15 @@ footer .wrapper a:hover {
   }
   section.festival .wrapper p.nextline {
     line-height: 2.1;
+  }
+  section.artists .wrapper .artistList ul li,
+  section.artists .wrapper .numberOfSongs ul li {
+    width: 100%;
+    padding: 0;
+  }
+  section.artists .wrapper .artistList ul li label,
+  section.artists .wrapper .numberOfSongs ul li label {
+    width: 100%;
+    display: inline-block;
   }
 }
