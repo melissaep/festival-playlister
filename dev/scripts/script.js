@@ -1358,7 +1358,7 @@ var songData = [];
 echoNest.getAllSongs = function(artistArray){
 	// Push all API data into one array
 	var apiData = [];
-	for (i = 0; i < artistArray.length; i += 1) {
+	for (var i = 0; i < artistArray.length; i += 1) {
 		apiData.push(echoNest.getArtistSongs(artistArray[i], numSongs));
 	};
 	// console.log(apiData);
@@ -1398,7 +1398,7 @@ echoNest.getAllSongs = function(artistArray){
 		// Write a function to delete duplicate songs from arrays
 		echoNest.filterSongs = function(songs){
 			var cleanedSongs = [];
-			for (i = 0; i < songs.length; i = i + 1) {
+			for (var i = 0; i < songs.length; i = i + 1) {
 				var noDuplicates = _.uniq(songs[i], function(value){
 				    return value.title;
 				});
@@ -1417,7 +1417,7 @@ echoNest.getAllSongs = function(artistArray){
 		echoNest.compileSongs = function(songArrays){
 			// For each array inside the main array, push the # of song OBJECTS that the user requested 
 			$.each(songArrays, function(){
-				for (i = 0; i < userNumSongs; i = i + 1) {
+				for (var i = 0; i < userNumSongs; i = i + 1) {
 					echoNestSongList.push(this[i]);
 				};
 			});

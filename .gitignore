@@ -1,3 +1,5 @@
 *.pdf
 *.zip
 node_modules
+miniApp
+favicon-01.png
